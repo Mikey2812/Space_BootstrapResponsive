@@ -1,0 +1,162 @@
+:root {
+    font-size: 16px;
+    /*  Main Color  */
+    --border_color: #008060;
+    --text_green_color: #008060;
+    --text_light_color: #fff;
+    --text_sliver_color: #51596C;
+    --background_color: #008060;
+
+    /*  Hover   */
+    --text_hover_color: #008060;
+    --background_button_hover: #006d52;
+    --backround_navlink_active: #E5F8F3;
+
+    --bs-primary-rgb: 0, 128, 96;
+    --bs-accordion-active-bg: rgba(0, 189, 142, 0.1);
+    --bs-dropdown-link-active-bg: rgba(189, 197, 209, .3) !important
+}
+
+* {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+.display-none {
+    display: none;
+}
+
+.h2,
+h2 {
+    font-size: 3rem;
+}
+
+.h3,
+h3 {
+    font-size: 2.125rem
+}
+
+.h4,
+h4 {
+    font-size: 1.625rem;
+}
+
+.h5,
+h5 {
+    font-size: 1.375rem;
+}
+
+.h6,
+h6 {
+    font-size: 1.125rem;
+}
+
+.p-lg-7 {
+    padding: 3rem;
+}
+
+.p-2rem {
+    padding: 2rem;
+}
+
+.pt-7_5rem {
+    padding-top: 7.5rem;
+}
+
+.py-5 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.me-4_5rem {
+    margin-right: 4.5rem !important;
+}
+
+.mb-2rem {
+    margin-bottom: 2rem;
+}
+
+.mb-3rem {
+    margin-bottom: 3rem;
+}
+
+.mb-5 {
+    margin-bottom: 2rem !important;
+}
+
+.mb-7 {
+    margin-bottom: 3rem;
+}
+
+.mb-sm-5 {
+    margin-bottom: 2rem !important;
+}
+
+.mb-sm-7 {
+    margin-bottom: 3rem !important;
+}
+
+.text-white-70 {
+    color: rgba(255, 255, 255, .7) !important
+}
+
+.text-body {
+    color: var(--text_sliver_color) !important;
+}
+
+.fs-6 {
+    font-size: 1.125rem !important;
+}
+
+.lead {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.dropdown-menu {
+    box-shadow: 0 0.6125rem 2.5rem 0.6125rem rgb(140 152 164 / 18%);
+    margin-top: 0.5rem;
+}
+
+.col-sm.mb-sm-0 {
+    max-height: 218px;
+}
+
+.minw20rem {
+    min-width: 20rem;
+}
+
+.maxw20rem {
+    max-width: 20rem;
+}
+
+.minw42rem {
+    min-width: 42rem;
+}
+
+/* Large */
+@media (min-width: 992px) {
+    .w.lg-50 {
+        width: 50%;
+    }
+
+    .w-lg-65 {
+        width: 65%;
+    }
+
+    .w-lg-75 {
+        width: 75%;
+    }
+
+}
